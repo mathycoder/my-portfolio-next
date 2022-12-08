@@ -1,0 +1,40 @@
+/* body {
+    background-color: #DDD;
+} */
+  
+.navbar {
+    background-color: #333;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+  
+.navbar a:hover {
+    color: gray;
+}
+  
+.navbar a {
+    margin: 5px 15px;
+}
+  
+.adamTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+.marginLeft {
+    margin-left: auto;
+    color: blue;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+  
+.blogLink {
+    /* margin-right: 40px; */
+}
+  
