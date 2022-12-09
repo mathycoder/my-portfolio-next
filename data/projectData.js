@@ -1,13 +1,13 @@
-import FlexSeatsLogo from '../../assets/img/flexseats-logo.png'
-import FlexSeatsPic from '../../assets/img/flexseats-pic.png'
-import MemoryLaneLogo from '../../assets/img/memory-lane-logo.png'
-import MemoryLanePic from '../../assets/img/memory-lane-pic.png'
-import MyGradebookLogo from '../../assets/img/my-gradebook-logo.png'
-import MyGradebookPic from '../../assets/img/my-gradebook-pic.png'
-import PetRescueLogo from '../../assets/img/pet-rescue.png'
-import PetRescuePic from '../../assets/img/pet-rescue-pic3.png'
-import StudentAgendasLogo from '../../assets/img/student-agendas-logo.png'
-import StudentAgendasPic from '../../assets/img/student-agendas-pic.png'
+import FlexSeatsLogo from '../assets/img/flexseats-logo.png'
+import FlexSeatsPic from '../assets/img/flexseats-pic.png'
+import MemoryLaneLogo from '../assets/img/memory-lane-logo.png'
+import MemoryLanePic from '../assets/img/memory-lane-pic.png'
+import MyGradebookLogo from '../assets/img/my-gradebook-logo.png'
+import MyGradebookPic from '../assets/img/my-gradebook-pic.png'
+import PetRescueLogo from '../assets/img/pet-rescue.png'
+import PetRescuePic from '../assets/img/pet-rescue-pic3.png'
+import StudentAgendasLogo from '../assets/img/student-agendas-logo.png'
+import StudentAgendasPic from '../assets/img/student-agendas-pic.png'
 
 export const myProjects = [
   {

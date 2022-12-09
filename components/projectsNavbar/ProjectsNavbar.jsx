@@ -1,5 +1,5 @@
 import styles from './ProjectsNavbar.module.css'
-import { myProjects } from '../../pages/data/projectData'
+import { myProjects } from '../../data/projectData'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
