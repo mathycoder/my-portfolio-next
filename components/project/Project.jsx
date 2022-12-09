@@ -47,7 +47,7 @@ const Project = ({ project }) => {
                 </div>
                 <div className="bulletpoints">
                     <ul>
-                        {project.bullets.map(bullet => <li>{bullet}</li>)}
+                        {project.bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
                     </ul>
                     { project.githubUrl ?
                         <div className={styles.githubLinkWrapper}>
