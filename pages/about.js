@@ -14,6 +14,9 @@ import SinatraIcon from "../assets/images-tech/sinatra.jpeg"
 import RubyIcon from "../assets/images-tech/ruby.png"
 import PythonIcon from "../assets/images-tech/python.png"
 import SqlIcon from "../assets/images-tech/sql.png"
+import NextJsIcon from "../assets/images-tech/nextjs.png"
+import CypressIcon from "../assets/images-tech/cypress.png"
+
 import GithubIcon from "../assets/images-icons/github.png"
 import GmailIcon from "../assets/images-icons/gmail.png"
 import LinkedInIcon from "../assets/images-icons/linkedin.png"
@@ -46,13 +49,16 @@ const About = () => {
                     <div className={styles.techs}>
                         
                         <Image alt="react" className={styles.techImg} src={ReactIcon} />
-                        <Image alt="react-native" className={styles.techImg} src={ReactNativeIcon} />
                         <Image alt="redux" className={styles.techImg} src={ReduxIcon} />
                         <Image alt="html5" className={styles.techImg} src={Html5Icon} />
                         <Image alt="css3" className={styles.techImg} src={Css3Icon} />
                         <Image alt="js" className={styles.techImg} src={JsIcon} />
                         <Image alt="es6" className={styles.techImg} src={Es6Icon} />
                         <Image alt="jquery" className={styles.techImg} src={jqueryIcon} />
+                        <Image alt="nextjs" className={styles.techImg} src={NextJsIcon} />
+                        <Image alt="cypress" className={styles.techImg} src={CypressIcon} />
+                        <Image alt="react-native" className={styles.techImg} src={ReactNativeIcon} />
+
                     </div>
                 </div>
     
