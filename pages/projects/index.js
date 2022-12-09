@@ -4,7 +4,7 @@ export const getServerSideProps = async () => {
     return {
         props: {},
         redirect: {
-            destination: "/projects/1"
+            destination: "/projects/student-agendas"
         }
     }
 }
