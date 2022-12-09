@@ -19,7 +19,7 @@ const ProjectsNavbar = ({ projectId }) => {
                         <div
                             key={key}
                             onClick={e => handleIconClick(proj.id)}
-                            className={parseInt(projectId) === proj.id ? styles.projectIconSelected : styles.projectIcon}
+                            className={projectId === proj.id ? styles.projectIconSelected : styles.projectIcon}
                         >
                             <Image src={proj.titleImage} alt={proj.title} className={styles.logoImg}/>
                         </div>

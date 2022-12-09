@@ -11,7 +11,7 @@ import StudentAgendasPic from '../assets/img/student-agendas-pic.png'
 
 export const myProjects = [
   {
-    id: 1,
+    id: "student-agendas",
     title: "Student Agendas",
     liveLink: "https://studentagendas.herokuapp.com",
     liveLinkMobile: true,
@@ -29,7 +29,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 2,
+    id: "flexseats",
     title: "FlexSeats",
     liveLink: "https://flexseats.herokuapp.com/",
     liveLinkMobile: true,
@@ -49,7 +49,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 3,
+    id: "my-gradebook",
     title: "MyGradebook",
     liveLink: "https://my-gradebook.herokuapp.com",
     liveLinkMobile: false,
@@ -69,7 +69,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 4,
+    id: "memory-lane",
     title: "MemoryLane",
     titleImage: MemoryLaneLogo,
     titleDescription: "Built with Ruby/Sinatra MVC",
@@ -85,7 +85,7 @@ export const myProjects = [
     ]
   },
   {
-    id: 5,
+    id: "pet-rescue",
     title: "Pet Rescue!",
     liveLink: "http://www.codeskulptor.org/#user45_K6NyFvtQe5_9.py",
     titleImage: PetRescueLogo,

@@ -1,0 +1,120 @@
+.project {
+    margin: 20px auto;
+    padding: 20px;
+    border: solid 2px #333;
+    border-radius: 10px;
+    max-width: 950px;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: white;
+}
+
+.project h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.project h6 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+}
+  
+.projectFirstRow {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.projectSecondRow {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    .projectFirstRow, .projectSecondRow {
+        flex-wrap: wrap;
+    }
+}
+  
+.projectFirstRow div {
+    margin: 10px 15px;
+}
+  
+.project p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 400px;
+}
+  
+.project iframe {
+    width: 400px;
+    height: 240px;
+}
+  
+.githubLinkWrapper {
+    text-align: center;
+}
+  
+.githubLogo {
+    position: relative;
+    width: 25px;
+    height: auto;
+    
+}
+  
+.projectMediaImage {
+    width: 400px;
+    height: 250px;
+    object-fit: contain;
+}
+  
+.projectSecondRow .bulletpoints {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-break:anywhere;
+    /* flex: 1; */
+}
+  
+@media screen and (max-width: 500px) {
+    .projects {
+        margin: 20px 10px;
+    }
+  
+    .project {
+        padding: 5px;
+    }
+  
+    .project iframe {
+        width: 340px;
+        height: 192px;
+    }
+  
+    .projectMediaImage {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .project iframe {
+        width: 310px;
+        height: 165px;
+    }
+}
+  
+@media screen and (max-width: 350px) {
+    .project iframe {
+        width: 290px;
+        height: 147px;
+    }
+}
