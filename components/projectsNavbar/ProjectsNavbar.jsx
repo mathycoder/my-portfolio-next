@@ -14,9 +14,10 @@ const ProjectsNavbar = ({ projectId }) => {
         <div className={styles.projects}>
             <h5>Select a Project:</h5>
             <div className={styles.projectIcons}>
-                {myProjects.map(proj => {
+                {myProjects.map((proj, key) => {
                     return (
                         <div
+                            key={key}
                             onClick={e => handleIconClick(proj.id)}
                             className={parseInt(projectId) === proj.id ? styles.projectIconSelected : styles.projectIcon}
                         >
