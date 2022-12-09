@@ -34,7 +34,7 @@
     color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .navbar a {
         margin: 5px 8px;
     }
