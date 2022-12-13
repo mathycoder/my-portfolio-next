@@ -83,6 +83,10 @@
     line-break:anywhere;
     /* flex: 1; */
 }
+
+.bulletpointsUl {
+    line-height: 24px;
+}
   
 @media screen and (max-width: 500px) {
     .projects {
@@ -102,6 +106,10 @@
         width: 90%;
         margin: 0 auto;
         display: block;
+    }
+
+    .bulletpointsUl {
+        padding-left: 24px;
     }
 }
   

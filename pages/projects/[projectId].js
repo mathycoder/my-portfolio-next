@@ -12,7 +12,9 @@ const ProjectPage = () => {
     return (
         <div className={styles.projects}>
             <ProjectsNavbar projectId={projectId} />
-            {project && <Project project={project} />}
+            <div className={styles.projectWrapper}>
+                {project && <Project project={project} />}
+            </div>
         </div>
     )
 }

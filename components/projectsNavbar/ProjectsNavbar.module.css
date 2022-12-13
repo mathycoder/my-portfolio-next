@@ -1,5 +1,5 @@
 .projects {
-    margin: 20px;
+    /* margin: 20px; */
 }
   
 .projects h1, .projects h2, .projects h5 {
@@ -29,8 +29,13 @@
   
 .projectIcons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    overflow-x: auto;
+    margin: 0 auto;
+    width: min-content;
+    max-width: 100%;
+    padding: 0 8px;
 }
   
 .projectIcon {

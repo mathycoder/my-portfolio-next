@@ -46,7 +46,7 @@ const Project = ({ project }) => {
                     />
                 </div>
                 <div className="bulletpoints">
-                    <ul>
+                    <ul className={styles.bulletpointsUl}>
                         {project.bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
                     </ul>
                     { project.githubUrl ?
